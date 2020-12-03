@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+      <view class="userinfo">
+			<text> {{textdata}}客官请看结果出来了 </text>
+		</view>
+
+	<view wx:for="{{list}}" class="userinfo">
+			<text>
+			<!-- {{item.addtime}} \t -->
+			{{item.content}} \n
+			</text>
+	</view>
+</view>
